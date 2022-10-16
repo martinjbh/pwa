@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import img from './maskable.png'
+
 function App() {
   return (
     <div className="App">
