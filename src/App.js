@@ -1,0 +1,14 @@
+import logo from './logo.svg';
+import './App.css';
+import img from './maskable.png'
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" style={{ width: "300px" }} />
+      </header>
+    </div>
+  );
+}
+
+export default App;
