@@ -76,14 +76,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" style={{ width: "300px" }} />
         <input onChange={handleChandeInput} placeholder="Nombre de usuario" />
 
-<button onClick={subscription}>
-  Loguear
-</button>
+        <button onClick={subscription}>
+          Loguear
+        </button>
       </header>
-
-
-     
-
     </div>
   );
 }
